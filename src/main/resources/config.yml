@@ -1,0 +1,28 @@
+# |                                |
+# |     TinyToolbox 1.0 Config     |
+# |________________________________|
+
+# set the language pack, it needs to match a file from lang/*.yml
+language: en
+
+# set the gamemode of a player when he enters specplus.
+# possible values: creative, survival, adventure, spectator, none
+set-gm-when-entering-specplus: none
+# same as above, only now when a player exits specplus.
+set-gm-when-exiting-specplus: none
+
+# set the outputs of the social commands.
+# can be formatted using the standard minecraft color codes.
+# you can add breaks with \n
+youtube-output: ""
+discord-output: ""
+twitch-output: ""
+twitter-output: ""
+facebook-output: ""
+threads-output: ""
+tiktok-output: ""
+reddit-output: ""
+instagram-output: ""
+
+# DO NOT TOUCH UNLESS YOU KNOW WHAT YOUR DOING
+config-ver: 1

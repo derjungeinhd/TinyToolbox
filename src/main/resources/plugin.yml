@@ -1,0 +1,111 @@
+name: TinyToolbox
+version: '${project.version}'
+main: de.derjungeinhd.tinytoolbox.Main
+api-version: '1.20'
+prefix: TT
+authors: [derjungeinhd]
+description: A small Toolbox for Spigot Servers that brings some basic commands.
+commands:
+  tinytoolbox:
+    permission: tinytoolbox.info
+    description: "Gather Information about the Plugin."
+    usage: "/tt, /ttinfo, /tthelp, /tinytoolbox, /tinytoolboxinfo, /tinytoolboxhelp"
+    aliases: [tt, ttinfo, tthelp, tinytoolboxinfo, tinytoolboxhelp]
+  discord:
+    permission: tinytoolbox.socials.discord
+    description: "Get a link to a recommended Discord Server."
+    usage: "/discord"
+    aliases: [dc]
+  twitch:
+    permission: tinytoolbox.socials.twitch
+    description: "Get a link to a recommended Twitch Channel."
+    usage: "/twitch"
+  youtube:
+    permission: tinytoolbox.socials.youtube
+    description: "Get a link to a recommended Youtube Channel."
+    usage: "/youtube"
+    aliases: [yt]
+  twitter:
+    permission: tinytoolbox.socials.twitter
+    description: "Get a link to a recommended Twitter Profile."
+    usage: "/twitter"
+    aliases: [x]
+  facebook:
+    permission: tinytoolbox.socials.facebook
+    description: "Get a link to a recommended Facebook Profile."
+    usage: "/facebook"
+    aliases: [fb]
+  threads:
+    permission: tinytoolbox.socials.threads
+    description: "Get a link to a recommended Threads Profile."
+    usage: "/threads"
+  tiktok:
+    permission: tinytoolbox.socials.tiktok
+    description: "Get a link to a recommended Tiktok Channel."
+    usage: "/tiktok"
+  reddit:
+    permission: tinytoolbox.socials.reddit
+    description: "Get a link to a recommended Subreddit."
+    usage: "/reddit"
+  instagram:
+    permission: tinytoolbox.socials.instagram
+    description: "Get a link to a recommended Instagram Profile."
+    usage: "/instagram"
+    aliases: [ig]
+  freeze:
+    permission: tinytoolbox.freeze
+    description: "Freezes the tick rate. Short for /tick freeze."
+    usage: "/freeze"
+  unfreeze:
+    permission: tinytoolbox.unfreeze
+    description: "Unfreezes the tick rate. Short for /tick unfreeze."
+    usage: "/unfreeze"
+  specplus:
+    permission: tinytoolbox.specplus
+    description: "Another Spectator Mode."
+    usage: "/specplus [<player>]"
+  hideandseek:
+    permission: tinytoolbox.hideandseek
+    description: "A new Hide & Seek Mode."
+    usage: "/hideandseek [join|exit|stop|invite]\n/hideandseek start <time to hide> <time to play>\n/hideandseek [found|kick] <player>"
+  restartin:
+    permission: tinytoolbox.restartin
+    description: "Schedules a timer till a server restart."
+    usage: "/restartin <time till restart>"
+permissions:
+  tinytoolbox.specplus:
+    description: "Permission to run /specplus"
+    default: op
+    children:
+      tinytoolbox.specplus.others: true
+  tinytoolbox.info:
+    description: "Permission to run /tt, /ttinfo, /tthelp, etc."
+    default: true
+  tinytoolbox.socials:
+    description: "Permission to run social commands"
+    default: true
+    children:
+      tinytoolbox.socials.discord: true
+      tinytoolbox.socials.twitch: true
+      tinytoolbox.socials.youtube: true
+      tinytoolbox.socials.twitter: true
+      tinytoolbox.socials.facebook: true
+      tinytoolbox.socials.threads: true
+      tinytoolbox.socials.tiktok: true
+      tinytoolbox.socials.reddit: true
+      tinytoolbox.socials.instagram: true
+  tinytoolbox.freeze:
+    description: "Permission to run /freeze"
+    default: op
+  tinytoolbox.unfreeze:
+    description: "Permission to run /unfreeze"
+    default: op
+  tinytoolbox.hideandseek:
+    description: "Permission to run /hideandseek"
+    default: true
+    children:
+      tinytoolbox.hideandseek.participate: true
+      tinytoolbox.hideandseek.organize: false
+  tinytoolbox.restartin:
+    description: "Permission to run /restartin"
+    default: op

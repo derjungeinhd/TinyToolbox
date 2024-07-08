@@ -1,0 +1,108 @@
+# General strings
+plugin-enabled: "Plugin aktiviert!"
+plugin-disabled: "Plugin deaktiviert!"
+plugin-trigger-server-restart: "---> leite Server Neustart ein..."
+plugin-confusion: "§bSuper, du hast es geschafft mein Plugin zu verwirren!"
+plugin-info-output: "\n \n \n§6§lTinyToolbox v1.0.0-1.20.4\n§r§bEine kleine Toolbox für Spigot Server welche neue und simple Befehle hinzufügt. \nErstellt von derjungeinhd."
+
+#Command related
+no-perm-for-command: "§cDu hast keine Berechtigung für diesen Befehl"
+not-enough-perms-for-command: "§cDu hast nicht die nötigen Berechtigungen für diesen Befehl"
+other-player-has-not-enough-perms: "§c hat nicht die nötigen Berechtigungen für diesen Befehl"
+player-not-found: "§cDer angegebene Spieler wurde nicht gefunden."
+
+# Hide and Seek related strings
+left-while-hide-and-seek: "§eBeim letzten Mal hast du den Server während einer Runde Hide & Seek verlassen. \nWenn dies absichtlich war, nutze bitte nächstes Mal /hideandseek exit bevor du den Server verlässt."
+
+hider-bossbar-title-hidephase: "Hider - Versteckphase"
+seeker-bossbar-title-hidephase: "Seeker - Versteckphase"
+hider-bossbar-title-seekphase: "Hider - Suchphase"
+seeker-bossbar-title-seekphase: "Seeker - Suchphase"
+
+no-participants-error: "§cDas Hide & Seek wurde abgebrochen, da keine Spieler mehr dran teilgenommen haben."
+no-seekers-anymore: "§c§lDie Hider haben gewonnen, da kein Seeker mehr übrig war."
+no-hiders-anymore: "§c§lDie Seeker haben gewonnen, da kein Hider mehr übrig war."
+wrong-hidetime-error: "§c<time to hide> muss aus einer Ganzzahl sowie einem m oder s (minuten oder sekunden) bestehen."
+wrong-seektime-error: "§c<time to seek> muss aus einer Ganzzahl sowie einem m oder s (minuten oder sekunden) bestehen."
+too-many-seekers-error: "§cDu hast zu viele Seeker ausgewählt!"
+seeker-count-not-an-int: "§c[<seeker count>] muss eine Ganzzahl sein."
+
+hide-and-seek-invite-title: "§6§lHide and Seek"
+hide-and-seek-invite-subtitle: "§6Nutze §b/hideandseek join§6 um teilzunehmen."
+hide-and-seek-invite-msg: "\n§6Eine neue Runde Hide & Seek startet, nutze §b/hideandseek join§6 um teilzunehmen."
+hide-and-seek-invite-success: "§7Die Einladung zum Hide and Seek wurde an alle versendet. Um selbst teilzunehmen, nutze auch /hideandseek join."
+
+player-joins-hide-and-seek: "§6Du nimmst nun am Hide & Seek Teil."
+player-has-joined-hide-and-seek: " §6nimmt am Hide & Seek teil."
+player-exits-hide-and-seek: "§7Du hast das Hide & Seek verlassen."
+player-has-exited-hide-and-seek: "§7 hat das Hide & Seek verlassen."
+
+hider-start-subtitle: "§6Versteck dich!"
+seeker-start-subtitle: "§6Gönn dir noch ne Pause."
+seeker-explanation-message: "§c§l\n\n\nDu bist Seeker,\n nutze /hideandseek found <player> wenn du einen Spieler gefunden hast."
+
+hide-and-seek-starting: "§7Das Hide & Seek wird gestartet..."
+hide-and-seek-start-success: "§7Das Hide & Seek wurde erfolgreich gestartet."
+hide-and-seek-stopping: "§7Das Hide & Seek wird gestoppt..."
+hide-and-seek-stop-success: "§7Das Hide & Seek wurde erfolgreich gestoppt."
+
+seeker-freed-title-hider: "§6§lACHTUNG!"
+seeker-freed-subtitle-hider: "§c§lDie Seeker beginnen mit der Suche!"
+seeker-freed-message-hider: "§c§lDie Seeker sind nun FREI!"
+seeker-freed-title-seeker: "§6§lLos gehts..."
+seeker-freed-subtitle-seeker: "§c§lSUCHE ALLE SPIELER!"
+
+hide-and-seek-end-title: "§6§lENDE!"
+hiders-won-subtitle: "§a§lDie Hider haben gewonnen!"
+hiders-won-message: "§6§lEine Runde Hide & Seek ging soeben zuende.\nGlückwunsch an die §a§lHider §6§lzum Sieg!"
+seekers-won-subtitle: "§c§lDie Seeker haben alle Hider gefunden!"
+seekers-won-message: "§6§lEine Runde Hide & Seek ging soeben zuende.\nGlückwunsch an die §c§lSeeker §6§lzum Sieg!"
+
+no-perm-to-participate: "§cDu hast keine Berechtigung um am Hide and Seek teilzunehmen."
+no-perm-for-kick: "§cDu hast keine Berechtigung um Spieler aus dem Hide & Seek rauszuwerfen."
+no-perm-for-invite: "§cDu hast keine Berechtigung um ein Hide and Seek zu veranstalten."
+no-perm-for-start: "§cDu hast keine Berechtigung das Hide & Seek zu starten."
+no-perm-for-stop: "§cDu hast keine Berechtigung das Hide & Seek zu stoppen."
+
+player-not-able-to-find-player: "§cDu kannst gerade keine Spieler finden."
+player-not-participating: "§cDu nimmst nicht an einem Hide and Seek Teil."
+target-not-participating: "§c ist nicht in einer Hide & Seek Runde."
+no-active-hide-and-seek: "§cEs findet gerade kein Hide & Seek statt."
+no-active-invitation: "§cEs wurde nicht zum Hide & Seek eingeladen."
+no-active-invitation-organizer: "§cDu must erst Spieler mit /hideandseek invite einladen"
+not-enough-players-for-hide-and-seek: "§cEs nehmen zu wenige Spieler Teil."
+hide-and-seek-already-active: "§cDas Hide & Seek läuft bereits."
+hide-and-seek-already-invited: "§cEs wurde bereits zum Hide & Seek eingeladen!"
+
+player-was-kicked: "§7 wurde aus dem Hide & Seek gekickt."
+player-got-kicked: "§eDu wurdest aus dem Hide and Seek geworfen"
+
+player-was-found: "§e wurde gefunden von "
+player-was-found-title: "§e§lSchade!"
+player-was-found-subtitle: "§eDu wurdest gefunden von "
+player-was-found-seeker-msg-1: "§eDu hast "
+player-was-found-seeker-msg-2: "§e gefunden."
+
+#Server Restart related
+restart-approaching: "Serverneustart anstehend"
+restart-announcement-title: "§c§lRestart"
+restart-announcement-subtitle: "§6§lBitte begebe dich an eine sichere Position."
+
+server-restart-abandoned: "Der Restart wurde abgebrochen."
+restart-scheduled-in: "Der Server wird neugestartet in "
+restart-scheduled-in-min: " Minuten."
+restart-scheduled-in-sec: " Sekunden."
+
+restart-timer-already-started: "§cDer Restart Timer läuft bereits."
+restart-timer-not-active: "§cEs wurde bisher kein Restart geplant."
+wrong-format-time-till-restart-error: "§c<time till restart> muss aus einer Ganzzahl sowie einem m oder s (minuten oder sekunden) bestehen."
+
+#specplus related
+specplus-got-activated: "§7Du wurdest in den SpecPlus gesetzt von "
+specplus-got-activated-by-console: "§7Du wurdest in den SpecPlus gesetzt."
+
+specplus-activated: "§7SpecPlus wurde aktiviert für "
+specplus-deactivated: "§7SpecPlus wurde deaktiviert für "
+
+# DO NOT TOUCH UNLESS YOU KNOW WHAT YOUR DOING
+lang-ver: 1

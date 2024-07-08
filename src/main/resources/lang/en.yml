@@ -1,0 +1,108 @@
+# General strings
+plugin-enabled: "Plugin enabled!"
+plugin-disabled: "Plugin disabled!"
+plugin-trigger-server-restart: "---> triggering server restart..."
+plugin-confusion: "§bGreat! You managed to confuse my plugin!"
+plugin-info-output: "\n \n \n§6§lTinyToolbox v1.0.0\n§r§bA small Toolbox for Spigot Servers that brings some basic commands. \nMade by derjungeinhd."
+
+#Command related
+no-perm-for-command: "§cYou don't have the permission for this command"
+not-enough-perms-for-command: "§cYou don't have the needed permissions for this command"
+other-player-has-not-enough-perms: "§c doesn't have the needed permissions for this command"
+player-not-found: "§cThe given player couldn't be found."
+
+# Hide and Seek related strings
+left-while-hide-and-seek: "§eLast time, you left the server while a round of Hide & Seek was running. \nIf this was intentional, please use /hideandseek exit the next time before leaving the server."
+
+hider-bossbar-title-hidephase: "Hider - Hidephase"
+seeker-bossbar-title-hidephase: "Seeker - Hidephase"
+hider-bossbar-title-seekphase: "Hider - Seekphase"
+seeker-bossbar-title-seekphase: "Seeker - Seekphase"
+
+no-participants-error: "§The Hide & Seek was abandoned because there were no active players left."
+no-seekers-anymore: "§c§lThe hiders won, because no seekers were left."
+no-hiders-anymore: "§c§lThe seekers won, because no hiders were left."
+wrong-hidetime-error: "§c<time to hide> needs to contain an Integer as well as a m or s (minutes or seconds)."
+wrong-seektime-error: "§c<time to seek> needs to contain an Integer as well as a m or s (minutes or seconds)."
+too-many-seekers-error: "§cYou chose too many seekers!"
+seeker-count-not-an-int: "§c[<seeker count>] needs to be an Integer."
+
+hide-and-seek-invite-title: "§6§lHide and Seek"
+hide-and-seek-invite-subtitle: "§6Use §b/hideandseek join§6 to play."
+hide-and-seek-invite-msg: "\n§6A new round of Hide & Seek starts soon, use §b/hideandseek join§6 to play."
+hide-and-seek-invite-success: "§7The invitation to the Hide and Seek was sent to everyone. To participate, you also need to use /hideandseek join."
+
+player-joins-hide-and-seek: "§6You joined the Hide and Seek."
+player-has-joined-hide-and-seek: " §6joined the Hide and Seek."
+player-exits-hide-and-seek: "§7You left the Hide and Seek."
+player-has-exited-hide-and-seek: "§7 left the Hide and Seek."
+
+hider-start-subtitle: "§6Hide yourself!"
+seeker-start-subtitle: "§6Just take a short break."
+seeker-explanation-message: "§c§l\n\n\nYou are a seeker,\n use /hideandseek found <player> when you found a player."
+
+hide-and-seek-starting: "§7Starting Hide & Seek..."
+hide-and-seek-start-success: "§7The Hide & Seek was started successfully."
+hide-and-seek-stopping: "§7Stopping Hide & Seek..."
+hide-and-seek-stop-success: "§7The Hide & Seek was stopped successfully."
+
+seeker-freed-title-hider: "§6§lWARNING!"
+seeker-freed-subtitle-hider: "§c§lThe seekers start to search for you!"
+seeker-freed-message-hider: "§c§lThe seekers are now FREE!"
+seeker-freed-title-seeker: "§6§lLet's beginn..."
+seeker-freed-subtitle-seeker: "§c§lFIND ALL PLAYERS!"
+
+hide-and-seek-end-title: "§6§lTHE END!"
+hiders-won-subtitle: "§a§lThe hider won!"
+hiders-won-message: "§6§lA round of Hide & Seek just ended.\nCongratulations to the §a§lHiders §6§lfor winning!"
+seekers-won-subtitle: "§c§lThe Seekers found all Hiders!"
+seekers-won-message: "§6§lA round of Hide & Seek just ended.\nCongratulations to the §c§lSeekers §6§lfor winning!"
+
+no-perm-to-participate: "§cYou don't have the permission to participate at a Hide & Seek."
+no-perm-for-kick: "§cYou don't have the permission to kick a player from Hide & Seek."
+no-perm-for-invite: "§cYou don't have the permission to organize a Hide & Seek."
+no-perm-for-start: "§cYou don't have the permission to start the Hide & Seek."
+no-perm-for-stop: "§cYou don't have the permission to stop the Hide & Seek."
+
+player-not-able-to-find-player: "§cYou aren't able to find a player right now."
+player-not-participating: "§cYou aren't participating in a Hide & Seek."
+target-not-participating: "§c isn't participating in a Hide & Seek."
+no-active-hide-and-seek: "§cThere is currently no active round of Hide & Seek."
+no-active-invitation: "§cThere is no invitation to a Hide & Seek."
+no-active-invitation-organizer: "§cYou need to invite players with /hideandseek invite first."
+not-enough-players-for-hide-and-seek: "§cThere are not enough players to start a Hide & Seek."
+hide-and-seek-already-active: "§cThe Hide & Seek is already running."
+hide-and-seek-already-invited: "§cThere is already an invitation for a Hide & Seek!"
+
+player-was-kicked: "§7 was kicked from the Hide & Seek."
+player-got-kicked: "§eYou were kicked from the current Hide & Seek."
+
+player-was-found: "§e was found by "
+player-was-found-title: "§e§lToo bad!"
+player-was-found-subtitle: "§eYou were found by "
+player-was-found-seeker-msg-1: "§eYou found "
+player-was-found-seeker-msg-2: "."
+
+#Server Restart related
+restart-approaching: "server restart approaching"
+restart-announcement-title: "§c§lRestart"
+restart-announcement-subtitle: "§6§lPlease go to a safe location."
+
+server-restart-abandoned: "The restart was abandoned."
+restart-scheduled-in: "The server was scheduled to restart in "
+restart-scheduled-in-min: " minutes."
+restart-scheduled-in-sec: " seconds."
+
+restart-timer-already-started: "§cThe restart timer was already started."
+restart-timer-not-active: "§cThere is no restart scheduled."
+wrong-format-time-till-restart-error: "§c<time till restart> needs to contain an Integer as well as a m or s (minutes or seconds)."
+
+#specplus related
+specplus-got-activated: "§7You were set into SpecPlus by "
+specplus-got-activated-by-console: "§7You were set into SpecPlus."
+
+specplus-activated: "§7SpecPlus was activated for "
+specplus-deactivated: "§7SpecPlus was deactivated for "
+
+# DO NOT TOUCH UNLESS YOU KNOW WHAT YOUR DOING
+lang-ver: 1
