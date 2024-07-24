@@ -32,15 +32,15 @@ public class HideTimerRunnable extends BukkitRunnable {
         for (String pname : this.hnsManager.getHiders()) {
             Player p = Bukkit.getPlayerExact(pname);
             if (p != null) {
-                p.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 40, 255, false, false));
+                p.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, 40, 255, false, false));
             }
         }
         for (String pname : this.hnsManager.getSeekers()) {
             Player p = Bukkit.getPlayerExact(pname);
             if (p != null) {
-                p.addPotionEffect(new PotionEffect(PotionEffectType.DAMAGE_RESISTANCE, 40, 255, false, false));
+                p.addPotionEffect(new PotionEffect(PotionEffectType.RESISTANCE, 40, 255, false, false));
                 p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 40, 255, false, false));
-                p.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, 40, 255, false, false));
+                p.addPotionEffect(new PotionEffect(PotionEffectType.SLOWNESS, 40, 255, false, false));
                 p.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 40, 0, false, false));
 
             }

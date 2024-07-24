@@ -1,7 +1,7 @@
 name: TinyToolbox
 version: '${project.version}'
 main: de.derjungeinhd.tinytoolbox.Main
-api-version: '1.20'
+api-version: '1.21'
 prefix: TT
 authors: [derjungeinhd]
 description: A small Toolbox for Spigot Servers that brings some basic commands.
