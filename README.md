@@ -90,3 +90,7 @@ Defaults to true, En- or Disable general Use of /hideandseek, individual permiss
 
 - ```tinytoolbox.restartin```
 Defaults to op, En- or Disable Use of /restartin
+
+## Building
+
+You want to build the plugin yourself? Just clone or fork [this repository](https://github.com/derjungeinhd/TinyToolbox) and pick the branch matching your desired minecraft version. You'll need Maven and [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/) to package the final .jar.
